@@ -55,12 +55,3 @@ Sistem informasi berbasis web profesional dan terpercaya untuk layanan penitipan
 * Safari
 
 ---
-
-## 🚀 Instalasi
-
-Untuk menjalankan project ini di lingkungan lokal Anda, ikuti langkah-langkah berikut:
-
-### 1. Clone atau Unduh Project
-```bash
-git clone [https://github.com/username/baroon-reptile.git](https://github.com/username/baroon-reptile.git)
-# Atau unduh file ZIP dan ekstrak ke folder htdocs web server Anda.
