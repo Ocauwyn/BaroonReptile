@@ -1,0 +1,9 @@
+# Baroon Reptile - Simplified Apache Configuration
+
+# Basic settings only
+RewriteEngine On
+
+# Error Pages
+ErrorDocument 404 /baroonreptil/404.php
+ErrorDocument 403 /baroonreptil/403.php
+ErrorDocument 500 /baroonreptil/500.php

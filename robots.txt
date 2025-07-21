@@ -1,0 +1,39 @@
+# Baroon Reptile - Robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive directories
+Disallow: /config/
+Disallow: /database/
+Disallow: /uploads/
+Disallow: /auth/
+Disallow: /admin/
+Disallow: /customer/
+Disallow: /includes/
+
+# Disallow error pages
+Disallow: /404.php
+Disallow: /403.php
+Disallow: /500.php
+
+# Disallow backup and temporary files
+Disallow: /*.bak$
+Disallow: /*.backup$
+Disallow: /*.old$
+Disallow: /*.tmp$
+Disallow: /*.temp$
+
+# Disallow version control
+Disallow: /.git/
+Disallow: /.svn/
+
+# Allow main pages
+Allow: /index.php
+Allow: /assets/
+
+# Sitemap location (create this file if needed)
+# Sitemap: https://yourdomain.com/baroonreptil/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

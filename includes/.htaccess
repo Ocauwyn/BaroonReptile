@@ -1,0 +1,17 @@
+# Baroon Reptile - Includes Directory Protection
+
+# Deny all access to includes directory
+Order deny,allow
+Deny from all
+
+# Alternative method
+<Files "*">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Prevent execution of PHP files from web
+<FilesMatch "\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

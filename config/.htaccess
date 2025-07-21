@@ -1,0 +1,14 @@
+# Baroon Reptile - Config Directory Protection
+
+# Deny all access to config directory
+Require all denied
+
+# Alternative method
+<Files "*">
+    Require all denied
+</Files>
+
+# Prevent execution of PHP files
+<FilesMatch "\.php$">
+    Require all denied
+</FilesMatch>
